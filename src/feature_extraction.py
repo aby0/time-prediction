@@ -2,6 +2,18 @@ import re
 from sklearn.feature_extraction.text import CountVectorizer
 from syllable import sylco
 
+"""
+    INPUT: Raw text
+    OUTPUT: Array of features
+                1. Average word length without stop words
+                2. Total word count
+                3. Average syllable per word
+                4. Total syllables
+                5. Average sentence length (in words)
+                6. Total sentence count
+
+"""
+
 
 def calculate_features(para):
     vectorizer = CountVectorizer()

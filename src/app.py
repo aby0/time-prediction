@@ -1,5 +1,5 @@
 """
-This aims to create a wrapper REST service for readtime prediction
+This aims to create a wrapper REST service for reading time prediction
 """
 
 from flask import Flask, request, abort

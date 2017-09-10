@@ -1,5 +1,9 @@
 import re
 
+"""
+    INPUT : Word
+    OUTPUT: Number of syllables in the word
+"""
 
 def sylco(word):
     word = word.lower()

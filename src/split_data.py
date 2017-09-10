@@ -8,10 +8,8 @@ from sklearn.model_selection import train_test_split
 
 
 """
-This function attempts to make testing data and training data
-and save it to a newly formed CSV file.
-
-@TODO: Check to append two dataframes for is_flexible field
+    INPUT : Single dataset
+    OUTPUT : Training dataset, Testing dataset
 """
 
 

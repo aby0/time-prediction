@@ -4,6 +4,12 @@ from sklearn.externals import joblib
 import numpy as np
 
 
+"""
+    MODEL: Random forest regression
+
+"""
+
+
 def train(x_train, y_train, filename):
     model = RandomForestRegressor(n_estimators=3)
     model.fit(x_train, y_train)

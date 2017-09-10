@@ -1,9 +1,10 @@
-"""
-This contains a function which takes raw sentence and predicts the reading time
-
-"""
 from feature_extraction import calculate_features
 from create_model import predict
+
+"""
+    INPUT : Text to calculate reading time
+    OUTPUT: Reading time in seconds
+"""
 
 
 def predict_time(text):

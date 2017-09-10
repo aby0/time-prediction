@@ -1,11 +1,13 @@
-"""
-    This file contains models for regression analysis
-"""
-
 import numpy as np
 from sklearn import linear_model
 from sklearn.externals import joblib
 from sklearn.metrics import mean_squared_error, r2_score
+
+"""
+    Model: Linear regression
+    Features: 6
+    Data-set size: 30
+"""
 
 
 def train(x_train, y_train, filename):

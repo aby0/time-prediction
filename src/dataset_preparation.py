@@ -2,7 +2,10 @@ import csv
 from feature_extraction import calculate_features
 
 """
-This file aims to prepare dataset from a raw text and extract features out of it
+    TASK: Prepare data-set from raw text
+    DATA-SET-FORMAT: CSV
+    INPUT: Raw lines from dataset
+    OUTPUT: CSV containing features extracted from dataset
 """
 
 
