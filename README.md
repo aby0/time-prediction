@@ -19,7 +19,7 @@ We can also work on more feature extraction such as :
 * Topic type using text classification
 * Number of punctuation
 * Complexity of sentence
-* Effect of word predictability of sentence in reading time is logarithmic.[source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3709001/)
+* [Effect of word predictability of sentence in reading time is logarithmic.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3709001/)
 
 # Prerequisites
 
