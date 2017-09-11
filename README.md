@@ -16,15 +16,15 @@ We have considered two algorithms linear regression and random forest regression
 # Further scope
 
 We can also work on more feature extraction such as :
-    1. Topic type using text classification
-    2. Number of punctuation
-    3. Complexity of sentence
-    4. Effect of word predictability of sentence in reading time is logarithmic.[source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3709001/)
+* Topic type using text classification
+* Number of punctuation
+* Complexity of sentence
+* Effect of word predictability of sentence in reading time is logarithmic.[source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3709001/)
 
 # Prerequisites
 
 ```sh
->  pip install -r requirements.txt --no-index --find-links file:///tmp/packages
+>  pip install -r requirements.txt --no-index
 ```
 
 # Usage
