@@ -10,6 +10,8 @@ from create_model import predict
 def predict_time(text):
     feature = calculate_features(text)
     output = predict('../result/reading.pkl', [feature])
+    if float(output.reshape(-1, 1)[0][0]) < 0.0:
+        return 0
 
     return float(output.reshape(-1, 1)[0][0])
 
